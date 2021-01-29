@@ -8,8 +8,9 @@ import android.os.Bundle;
 
 public class MainActivity extends AppCompatActivity {
      RecyclerView recyclerView;
-    String s1[], s2[];
-    int images[] = {R.drawable.cplus,R.drawable.creshot,R.drawable.java,R.drawable.javascript,R.drawable.kotlin,R.drawable.python,R.drawable.ts};
+    String s1[], s2[],s3[], s4[];
+    int images[] = {R.drawable.i, R.drawable.a, R.drawable.e,
+            R.drawable.img_09654, R.drawable.o,R.drawable.q, R.drawable.w};
 
 
     @Override
@@ -21,8 +22,10 @@ public class MainActivity extends AppCompatActivity {
 
         s1 = getResources().getStringArray(R.array.programming_languages);
         s2 = getResources().getStringArray(R.array.description);
+        s3 = getResources().getStringArray(R.array.Page);
+        s4 = getResources().getStringArray(R.array.About);
 
-        MyAdapter myAdapter = new MyAdapter(this,s1, s2, images);
+        MyAdapter myAdapter = new MyAdapter(this,s1, s2,s3,s4, images);
         recyclerView.setAdapter(myAdapter);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
     }

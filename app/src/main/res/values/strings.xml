@@ -2,24 +2,45 @@
     <string name="app_name">recyclerview</string>
 
     <string-array name="programming_languages">
-        <item>C++</item>
-        <item>C#</item>
-        <item>Java</item>
-        <item>Javascript</item>
-        <item>Kotlin</item>
-        <item>Python</item>
-        <item>TypeScript</item>
+        <item>Я все помню</item>
+        <item>До встречи с тобой</item>
+        <item>100 способов изменить жизнь</item>
+        <item>Приключения оливера твиста</item>
+        <item>Окружи себя лучшими</item>
+        <item>Малое собрание сочинений</item>
+        <item>11/22/63</item>
     </string-array>
 
     <string-array name="description">
-        <item>This is random descriptin</item>
-        <item>This is random descriptin</item>
-        <item>This is random descriptin</item>
-        <item>This is random descriptin</item>
-        <item>This is random descriptin</item>
-        <item>This is random descriptin</item>
-        <item>This is random descriptin</item>
+        <item>Уэнди Уокер</item>
+        <item>Джоджо Мойес</item>
+        <item>Лариса Парфентьева</item>
+        <item>Чарльз Диккенс</item>
+        <item>Клаудио Фернандес Араос</item>
+        <item>Уильям Шекспир</item>
+        <item>Стивен Кинг</item>
 
 
+    </string-array>
+    <string-array name="Page">
+        <item>384/0</item>
+        <item>480/2</item>
+        <item>190/165</item>
+        <item>512/369</item>
+        <item>256/245</item>
+        <item>736/354</item>
+        <item>928/700</item>
+    </string-array>
+
+    <string-array name="About">
+        <item>После жестокого изнасилования пятнадцатилетняя Дженни Крамер подвергается...</item>
+        <item>Лу Кларк знает, сколько шагов от автобусной остановки до ее дома...</item>
+        <item>Эта книга родилась из еженедельной рубрики Ларисы Парфентьевой...</item>
+        <item>Маленький сирота с ангельской внешностью Оливер и его приключения...</item>
+        <item>Практичные рекомендации мирового эксперта,
+            которые помогут собрать сильную и результативную команду...</item>
+        <item>Прекрасное произведение: власть, сомнения, чувства, терзания души...</item>
+        <item>...Убийство президента Кеннеди стало самым трагическим
+            событием американской истории ХХ века...</item>
     </string-array>
 </resources>

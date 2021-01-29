@@ -4,10 +4,36 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="@drawable/back">
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerview"
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="66dp"
+        tools:ignore="MissingConstraints">
+
+        <ImageView
+            android:id="@+id/menu"
+            android:layout_width="64dp"
+            android:layout_height="66dp"
+            android:contentDescription="@string/app_name"
+            android:icon="@drawable/ic_baseline_menu_24"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/books"
+            android:layout_width="104dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="monospace"
+            android:gravity="center"
+            android:text="Books"
+            android:textSize="30dp" />
+    </LinearLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
